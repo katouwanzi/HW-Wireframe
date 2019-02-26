@@ -65,6 +65,7 @@ main{
     display:block;
     margin-top:15px;
     margin-bottom: 15px;
+    position:relative;
 }
 
 .article{
@@ -73,6 +74,7 @@ main{
     background-color:#777;
     color:#ebebeb;
     margin:0 auto;
+    position:relative;
 }
 
 .box1,
@@ -81,11 +83,12 @@ main{
     background-color: #ebebeb;
     color:#777;
     text-align: center;
-    margin: 0 auto;
-
+    position: absolute;
+    left:14px;
 }
-.box1{
-    margin-bottom:10px;
+
+.box2{
+    bottom: 15px;
 }
 
 aside{
